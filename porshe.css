@@ -1,0 +1,448 @@
+.navbar{
+    height: 120px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    
+}
+*{
+    margin:0
+}
+.flex-container{
+    display: flex;
+    position: static;
+    background-color: rgb(255, 255, 255);
+    height: 120px;
+    width: 630px;
+    margin-left: 240px;
+
+   
+}
+.a img{
+    height: 60px;
+    width: 80px;
+    margin-top: 30px;
+    margin-left: 10px;
+    
+
+}
+.b img{
+    height: 60px;
+    width: 83px;
+    margin-left: 10px;
+    margin-top: 30px;
+
+}
+.c img{
+    height: 60px;
+    width: 90px;
+    margin-left: 10px;
+    margin-top: 30px;
+
+}
+.d img{
+    height: 60px;
+    width: 90px;
+    margin-left: 10px;
+    margin-top: 30px;
+
+}
+.e img{
+    height: 60px;
+    width: 90px;
+    margin-left: 10px;
+    margin-top: 30px;
+
+}
+.f img{
+    height: 60px;
+    width: 90px;
+    margin-left: 10px;
+    margin-top: 30px;
+
+}
+.navbar p{
+    margin-left: 35px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar p:hover{
+    color: red;
+}
+.logo img{
+    height: 130px;
+    width: 130px;
+    position: absolute;
+    margin-left: 90px;
+    /* overflow: visible; */
+   background-color: rgb(255, 255, 255);
+   border: 0.5px solid rgb(187, 186, 186);
+   
+   
+}
+
+
+
+.row{
+    margin-right: 100px;
+}
+   
+
+.coloumn{
+    float: right;
+    display: flex;
+    margin-top: 50px;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    align-items: center;
+}
+    
+.coloumn h3:hover{
+    color: red;
+}
+.coloumn h3{
+    font-weight: lighter;
+}
+
+.coloumn img{
+    margin-left: 10px;
+    margin-right: 5px;
+    width: 20px;
+}
+.mainscreen img{
+    width: 100%;
+}
+.mainscreen{
+    width: auto;
+    height: 70vh;
+    background-size: cover;
+    background-image:url(images/porsche-normal.jpg);
+    background-position: center; 
+    padding: 10px 8%;  
+    position: relative;
+   
+    
+}
+
+.heading-1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 420px;
+    color: white;
+    font-size: 54px;
+    
+}
+
+.heading-2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 24px;
+}
+.heading-1:hover{
+    color: red;
+}
+.heading-2:hover{
+    color: red;
+}
+
+.heading-3{
+    text-align: center;
+    font-size: 47px;
+    color: white;
+    
+}
+.type{
+    height: 70px;
+    margin-left: 105px;
+    margin-top: 30px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.coloumn1{
+    float: left;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.coloumn1 img{
+    display: block;
+    width: 480px;
+    height: 360px;
+    
+    
+}
+.text{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.text1{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.text2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.button{
+    position: absolute;
+    
+    margin-left: 30px;
+    margin-top: 280px;
+    height: 50px;
+    width: 150px;
+    padding: 10px 20px;
+    font-size: 12px;
+    background-color: white;
+    color: black;
+    border: 0;
+    outline: 0;
+    
+}
+.button img{
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+.buttons{
+    position: absolute;
+    
+    margin-left: 190px;
+    margin-top: 280px;
+    height: 50px;
+    width: 150px;
+    padding: 10px 20px; 
+    font-size: 15px;
+    background: transparent;
+    border-color: white;
+    color: white;
+    outline: 0;
+    
+}
+.buttons img{
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+.button:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+.buttons:hover{
+    color: red;
+    border-color: red;
+    cursor: pointer;
+}
+.five{
+    height: 600px;
+    width: auto;
+}
+.coloumn2{
+    float: left;
+    width: auto;
+    display: flex;
+    
+}
+.coloumn2 img{
+    display: block;
+    width: 350px;
+    height: 200px;
+     margin-left: 100px; 
+    margin-top: 100px;
+    margin-bottom: 200px;
+
+}
+.find{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-top: 100px;
+    margin-left: 100px;
+    text-align: left;
+}
+.findp{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    text-align: left;
+
+}
+
+.fourbutton{
+    margin-left: 200px;
+    margin-top: 310px;
+    height: 50px;
+    width: 170px;
+    padding: 10px 20px;
+    font-size: 15px;
+    background-color: rgb(42, 42, 42);
+    color: white;
+    position: absolute;
+    border: 0;
+    
+}
+
+.fourbutton:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+.heading4{
+    display: flex;
+    font-size: 47px;
+    color: rgb(187, 183, 183);
+    margin-top: 360px;
+    
+}
+.shopping{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-top: 100px;
+    margin-left: 100px;
+    text-align: left;
+    
+} 
+
+.coloumn3{
+    float: left;
+    width: auto;
+    display: flex;
+    
+}
+.coloumn3 img{
+    display: block;
+    width: 270px;
+    height: 280px; 
+    margin-top: 50px;
+
+}
+.coloumn4{
+    float: left;
+    width: auto;
+    display: flex;
+    
+}
+.coloumn4 img{
+    display: block;
+    width: 400px;
+    height: 280px;
+    margin-left: 100px; 
+    margin-top: 50px;
+
+}
+.coloumn4 p{
+    display: flex;
+    font-size: 20px;
+     margin-top: 280px; 
+     margin-left: 120px;
+    position: absolute;
+    color: white;
+    
+}
+.coloumn3 p{
+    display: flex;
+    font-size: 20px;
+     margin-top: 280px; 
+     margin-left: 20px;
+    position: absolute;
+    color: white;
+    
+}
+.coloumn3 p:hover{
+    color: red;
+}
+.coloumn4 p:hover{
+    color: red;
+}
+#endfoot{
+    position: sticky;
+    top: 100%;
+    margin-top: 120px; 
+    border-top: 1px solid black;
+    height: 600px;
+    margin-bottom: 250px;
+    
+    
+  
+}
+.coloumn5 h2{
+    display: flex;
+    font-size: 20px;
+    margin-left: 120px;
+    margin-top: -160px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.coloumn5 p{
+    
+    font-size: 15px; 
+    margin-left: 120px;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    
+     
+    
+    
+    
+}
+.coloumn5 p:hover{
+    color: red;
+}
+.coloumn5{
+    float: left;
+    padding: 5px;
+   
+}
+#final{
+    background-color: #191f22;
+    height: 330px;
+    padding-top: 30px;
+
+    
+    
+ } 
+ .finalfoot h2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 120px;
+    margin-top: 10px;
+    
+
+ }
+ .fbutton{
+    width: 300px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 120px;
+    font-size: 20px;
+    color: white;
+    background-color: #444;
+    border: 0;
+    outline: 0;
+    margin-bottom: 60px;
+    
+    
+ }
+ .fbutton1{
+    width: 300px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: #444;
+    border: 0;
+    outline: 0;
+ }
+ .finalfoot p{
+    color: white;
+    margin-left: 120px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+
